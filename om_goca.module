@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains om_goca.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function om_goca_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the om_goca module.
+    case 'help.page.om_goca':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Coding test module for Open') . '</p>';
+      return $output;
+
+    default:
+  }
+}

@@ -1,0 +1,7 @@
+om_goca:
+  version: 1.x
+  css:
+    layout:
+      css/om_goca.css: {}
+  js:
+    js/om_goca.js: {}

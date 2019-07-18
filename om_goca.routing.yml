@@ -1,0 +1,16 @@
+om_goca.search_pr:
+  path: '/search-political-representative'
+  defaults:
+    _form: '\Drupal\om_goca\Form\SearchRepresentatives'
+    _title: 'Search Political Representatives'
+  requirements:
+    _permission: 'access content'
+om_goca.admin_settings_form:  
+  path: '/admin/config/om-goca/adminsettings'  
+  defaults:  
+    _form: '\Drupal\om_goca\Form\OMGOCAAdminForm'  
+    _title: 'Open Meida GOCA Administration Form'  
+  requirements:  
+    _permission: 'access administration pages'  
+  options:  
+    _admin_route: TRUE 

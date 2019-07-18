@@ -1,0 +1,7 @@
+name: 'OM GOCA'
+type: module
+description: 'Coding test module for Open'
+core: 8.x
+package: 'Custom'
+dependencies:
+  - drupal:address

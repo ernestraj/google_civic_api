@@ -1,0 +1,8 @@
+{
+    "name": "drupal/om_goca",
+    "description": "OM GOCA module will be used to integrate google's open civic API with Drupal .",
+    "type": "drupal-module",
+    "require": {
+        "drupal/address"
+    }
+}
